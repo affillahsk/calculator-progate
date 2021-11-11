@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-image: url(https://source.unsplash.com/E7DsoC0mcpw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parent{
+    background: #fcf0f0ce;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+
+}
+
+.calc-container{
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 350px;
+}
+
+.calc-screen{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    width: 75%;
+    height: 70px;
+    background-color: #c6f2cc;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    font-size: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+ 
+}
+
+.calc-body{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+button{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    height: 50px;
+    background-color: gray;
+    margin: 5px 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 25%;
+    border-radius: 10%;
+    box-sizing: border-box;
+    border: none;
+    font-weight: 700;
+    
+}
+
+.delete_input{
+    background-color: rgb(255, 68, 0);
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    padding: 0 10x;
+    padding-bottom: 2px;
+    color: rgb(0, 0, 0); 
+    border: none;
+    font-weight: 700;
+}
+
+.equal-sign{
+    width: 50%;
+}
+
+.equal-sign, .operator, .delete{
+    background-color: orange;
+}
+
+.all-clear{
+    background-color: rgba(255, 68, 0, 0.815);
+}
+
+button:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.delete_input:hover{
+    background-color: #ff6f0f;
+    cursor: pointer;
+}
+
+.equal-sign:hover, .operator:hover{
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.all-clear:hover{
+    background-color: rgb(247, 112, 63);
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 6px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
